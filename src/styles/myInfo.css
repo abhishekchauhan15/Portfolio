@@ -1,7 +1,35 @@
 .myInfo{
     display: flex;
+    flex-direction: row;
+    margin-left: 10%;
 }
 
 .btn{
     display: flex;
+}
+
+.realInfo{
+    margin-top: 80px;
+    width: 50%;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    /* margin-left: 10px; */
+
+}
+
+.developer{
+    font-size: 20px;
+    /* margin-left: 10px; */
+    margin-top: 2px;
+}
+
+.btn{
+    
+}
+
+.sideImg{
+    /* display: cover; */
 }
