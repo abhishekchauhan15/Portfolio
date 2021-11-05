@@ -1,0 +1,24 @@
+.info{
+    display: flex;
+}
+
+.footer{
+    display: flex;
+}
+
+.rightSide{
+    margin-left: 30%;
+}
+
+.connect ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    /* margin-left: 10%; */
+}
+
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
