@@ -1,35 +1,61 @@
-.myInfo{
-    display: flex;
-    flex-direction: row;
-    margin-left: 10%;
+.bg {
+  background-image: url("../assets/backgrounds/blob-scene-dark.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  /* background-color: #1a1a1a; */
+  height: 100vh;
+  /* z-index: -1; */
+  /* display: inline-block; */
+  /* position:absolute; */
+  display: flex;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  /* width: fit-content; */
 }
 
-.btn{
-    display: flex;
+.realInfo {
+  font-size: large;
+  color: white;
+  margin-left: 10%;
+  padding-top: 15%;
+  display: inline-block;
+  width: 50%;
 }
 
-.realInfo{
-    margin-top: 80px;
-    width: 50%;
+.btn {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 
-.name{
-    font-size: 30px;
-    font-weight: bold;
-    /* margin-left: 10px; */
-
+.Socialbtn {
+  margin-top: 10px;
+  width: 20%;
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.developer{
-    font-size: 20px;
-    /* margin-left: 10px; */
-    margin-top: 2px;
+.sideImg {
+  width: 30%;
+  height: 50%;
+  margin-top: 10%;
 }
 
-.btn{
-    
+.hi span {
+  color: red;
 }
 
-.sideImg{
-    /* display: cover; */
+.developer {
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.aboutMe {
+  margin-top: 10px;
+}
+
+.hi {
+  font-size: 50px;
 }
