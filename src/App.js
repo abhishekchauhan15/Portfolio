@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <MyInfo />
-      {/* <TechStack /> */}
+      <TechStack />
       {/* <FeaturedProjects/> */}
       {/* <Footer/> */}
     </div>

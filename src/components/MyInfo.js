@@ -5,6 +5,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 // import coding from "../images/2844250.jpg";
 import BlobSceneDark from "../assets/backgrounds/blob-scene-dark.svg";
+import Real from "../assets/backgrounds/real.png";
 import Programmer2 from "../assets/programmer2.svg";
 import Button from "@mui/material/Button";
 import MessageIcon from '@mui/icons-material/Message';
@@ -58,7 +59,7 @@ function MyInfo() {
             </Button>
           </div>
         </div>
-        <img src={Programmer2} alt="background" className="sideImg" />
+        <img src={Real} alt="background" className="sideImg" />
       </div>
       {/* <button>down button</button> */}
     </div>

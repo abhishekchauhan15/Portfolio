@@ -1,0 +1,29 @@
+.techStack {
+  /* background-color: #000d6b; */
+  display: flex;
+}
+
+.leftImg img {
+  width: 60%;
+  height: 70%;
+}
+
+.leftImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stacks{
+    margin-top: 6%;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    width: 10px;
+    height: 10px;
+}
