@@ -8,7 +8,7 @@ import FeaturedProjects from "./components/FeaturedProjects";
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header  className="fixed"/>
       <MyInfo />
       <TechStack />
       {/* <FeaturedProjects/> */}

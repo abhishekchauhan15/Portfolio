@@ -1,11 +1,13 @@
 .techStack {
-  /* background-color: #000d6b; */
+  background-color: #161625;
+  color: #fff;
   display: flex;
 }
 
 .leftImg img {
-  width: 60%;
-  height: 70%;
+  width: 100%;
+  height: 100%;
+  margin-left: 100px;
 }
 
 .leftImg {
@@ -14,16 +16,28 @@
   align-items: center;
 }
 
-.stacks{
-    margin-top: 6%;
+.stacks {
+  /* width: 100%; */
+  margin-top: 6%;
+  /* margin-left: 10%; */
 }
 
+.stacks h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
 
-.icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-    width: 10px;
-    height: 10px;
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.icons img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
 }
