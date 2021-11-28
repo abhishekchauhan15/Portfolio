@@ -32,21 +32,22 @@ function MyInfo() {
                 href="https://github.com/abhishekchauhan15"
                 target="_blank"
               >
-                <GitHubIcon />
+                <GitHubIcon fontSize="large" />
+    
               </a>
               <a
                 rel="noopener noreferrer"
                 href="https://www.linkedin.com/in/abhishekchauhan15/"
                 target="_blank"
               >
-                <LinkedInIcon />
+                <LinkedInIcon fontSize="large" />
               </a>
               <a
                 rel="noopener noreferrer"
                 href="https://twitter.com/1509_abhishek"
                 target="_blank"
               >
-                <TwitterIcon />
+                <TwitterIcon fontSize="large"/>
               </a>
             </div>
           </div>
@@ -58,7 +59,7 @@ function MyInfo() {
               SEE MY WORK
             </Button>
           </div>
-        </div>
+        </div >
         <img src={Real} alt="background" className="sideImg" />
       </div>
       {/* <button>down button</button> */}

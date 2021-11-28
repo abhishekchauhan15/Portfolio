@@ -30,17 +30,22 @@
 }
 
 .Socialbtn {
-  margin-top: 10px;
-  width: 20%;
-  height: 40%;
+  margin-top: 16px;
+  width: 18%;
+  height: 60px;
   display: flex;
   justify-content: space-between;
 }
 
+.Socialbtn a {
+  color: white;
+  text-decoration: none;
+}
+
 .sideImg {
-  width: 30%;
-  height: 50%;
-  margin-top: 10%;
+  width: 35%;
+  height: 55%;
+  margin-top: 8%;
 }
 
 .hi span {
