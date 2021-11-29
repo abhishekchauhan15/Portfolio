@@ -43,7 +43,7 @@ function TechStack() {
           </span>
           <span>
             Github
-            <img src={github} alt="" className="icon_" />
+            <img src={github} alt="" className="icon_ White" />
           </span>
 
           <span>
@@ -80,7 +80,7 @@ function TechStack() {
           </span>
           <span>
             vercel
-            <img src={vercel} alt="" className="icon_" />
+            <img src={vercel} alt="" className="icon_ White" />
           </span>
           <span>
             typescript
