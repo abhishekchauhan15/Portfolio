@@ -9,16 +9,11 @@ import javascript from "../assets/icons/javascript.svg";
 import react from "../assets/icons/react.png";
 import redux from "../assets/icons/redux.svg";
 import bootstrap from "../assets/icons/bootstrap.svg";
-import chartjs from "../assets/icons/chartjs.svg";
-import apollo from "../assets/icons/apollo.svg";
 import ejs from "../assets/icons/ejs.svg";
 import materialui from "../assets/icons/materialui.svg";
 import mongodb from "../assets/icons/mongodb.svg";
 import nodejs from "../assets/icons/nodejs.svg";
 import postgresql from "../assets/icons/postgresql.svg";
-import spring from "../assets/icons/react-spring.svg";
-import reactt from "../assets/icons/react.png";
-import s3 from "../assets/icons/s3.svg";
 import typescript from "../assets/icons/typescript.svg";
 import vercel from "../assets/icons/vercel.svg";
 
