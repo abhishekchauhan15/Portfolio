@@ -12,7 +12,7 @@ function App() {
       <MyInfo />
       <TechStack />
       {/* <FeaturedProjects/> */}
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }

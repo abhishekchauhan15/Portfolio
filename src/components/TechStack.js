@@ -76,7 +76,7 @@ function TechStack() {
           </span>
           <span>
             javascript
-            <img src={javascript} alt="" className="icon_" />
+            <img src={javascript} alt="" className="icon_ " />
           </span>
           <span>
             vercel
@@ -84,7 +84,7 @@ function TechStack() {
           </span>
           <span>
             typescript
-            <img src={typescript} alt="" className="icon_" />
+            <img src={typescript} alt="" className="icon_ " />
           </span>
         </div>
       </div>

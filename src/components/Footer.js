@@ -1,23 +1,58 @@
 import React from "react";
 import "../styles/footer.css";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import EmailIcon from "@mui/icons-material/Email";
+import ContactMe from "../assets/backgrounds/20943953-removebg-preview.png";
 
 function Footer() {
   return (
     <div className="footer">
-      <div>
-        <div>Connect with me </div>
-        <div className="info">
-          <div className="connect">
-            <ul>
-              <li> <span> </span>Github</li>
-              <li> <span> </span> Linkedin</li>
-              <li> <span> </span> Twitter</li>
-              <li> <span> </span> email</li>
-            </ul>
+        <div className="footer_info">
+          <div className="contact">Connect with me </div>
+          <div className="info">
+            <div className="connect">
+              <ul>
+                <li>
+                  {" "}
+                  <span>
+                    {" "}
+                  <GitHubIcon
+                    />
+                  </span>
+                  Github
+                </li>
+                <li>
+                  {" "}
+                  <span>
+                    {" "}
+                    <LinkedInIcon />
+                  </span>{" "}
+                  Linkedin
+                </li>
+                <li>
+                  {" "}
+                  <span>
+                    <TwitterIcon />{" "}
+                  </span>{" "}
+                  Twitter
+                </li>
+                <li>
+                  {" "}
+                  <span>
+                    <EmailIcon />{" "}
+                  </span>{" "}
+                  Email
+                </li>
+              </ul>
+            </div>
+            <div className="footerImg">
+              <img src={ContactMe} alt="" />
+            </div>
           </div>
-          <div>img</div>
         </div>
-      </div>
+    
       <div className="rightSide">
         <div>Say Hi</div>
         <div className="userInfo">
