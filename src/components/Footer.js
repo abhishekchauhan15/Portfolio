@@ -54,7 +54,8 @@ function Footer() {
         </div>
     
       <div className="rightSide">
-        <div>Say Hi</div>
+        <div class="text-gray-900 dark:text-white mt-5 text-base font-medium tracking-tight">Say Hi</div>
+        
         <div className="userInfo">
           <span>
             {" "}

@@ -11,8 +11,8 @@ function App() {
       <Header  className="fixed"/>
       <MyInfo />
       <TechStack />
-      {/* <FeaturedProjects/> */}
-      <Footer/>
+      <FeaturedProjects/>
+      {/* <Footer/> */}
     </div>
   );
 }
