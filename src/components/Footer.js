@@ -5,10 +5,12 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import EmailIcon from "@mui/icons-material/Email";
 import ContactMe from "../assets/backgrounds/20943953-removebg-preview.png";
+import ScrollToTop from "react-scroll-to-top";
 
 function Footer() {
   return (
     <div className="footer">
+       <ScrollToTop smooth  top="100"/>
         <div className="footer_info">
           <div className="contact">Connect with me </div>
           <div className="info">

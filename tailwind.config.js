@@ -1,11 +1,16 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    './public/*.html',
+  ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'port-blue': ' #161625',
+        'white': '#ffffff',
+      },
+      
+    },
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
+  plugins: [
+  ],
 }
