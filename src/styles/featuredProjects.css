@@ -1,10 +1,16 @@
-.featuredProjects{
-    background-color: #161625;
-    color: white;
+.pri_left{
+    display: flex;
+    justify-content: center;
+}
+
+.sec_right{
+    display: flex;
+    justify-content: center;
+   
 }
 
 .desc{
-   width: 50%;
-}
+    display: flex;
 
+}
 
