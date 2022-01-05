@@ -3,7 +3,6 @@ import "../styles/featuredProjects.css";
 import Project from "./Project";
 import ProjectsDetailsArr from "./ProjectsDetailsArr";
 
-
 function FeaturedProjects() {
   return (
     <div className="featuredProjects">
@@ -11,24 +10,22 @@ function FeaturedProjects() {
         Featured Projects
       </h1>
       <div>
-        <div>
-          {ProjectsDetailsArr.map((item, index) => {
-            return (
-              <Project
-                index={index}
-                Name={item.ProjectsName}
-                Description={item.ProjectsDescription}
-                Image={item.ProjectsImage}
-                Left={item.Left}
-                Code={item.Code}
-                Live={item.Live}
-              />
-            );
-          })}
-         
-        </div>
+        {ProjectsDetailsArr.map((item, index) => {
+          return (
+            <Project
+              index={index}
+              Name={item.ProjectsName}
+              Description={item.ProjectsDescription}
+              Image={item.ProjectsImage}
+              Left={item.Left}
+              Code={item.Code}
+              Live={item.Live}
+              Stack={item.Stack}
+            />
+          );
+        })}
       </div>
-      </div>
+    </div>
   );
 }
 

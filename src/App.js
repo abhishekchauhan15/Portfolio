@@ -7,11 +7,11 @@ import FeaturedProjects from "./components/FeaturedProjects";
 function App() {
   return (
     <div className="App">
-      {/* <Header  className="fixed"/> */}
-      {/* <MyInfo /> */}
-      {/* <TechStack /> */}
+      <Header  className="fixed"/>
+      <MyInfo />
+      <TechStack />
       <FeaturedProjects />
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }
