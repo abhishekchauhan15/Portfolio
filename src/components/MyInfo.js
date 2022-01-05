@@ -7,6 +7,7 @@ import Real from "../assets/backgrounds/real.png";
 import Button from "@mui/material/Button";
 import MessageIcon from '@mui/icons-material/Message';
 import CodeIcon from '@mui/icons-material/Code';
+import bg from "../assets/backgrounds/blob-scene-dark.svg"
 
 function MyInfo() {
   return (

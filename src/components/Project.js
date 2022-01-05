@@ -26,7 +26,7 @@ function Project({ index, Name, Description, Image, Code, Live , Stack}) {
         </div>
       </div>
 
-      <div className="flex flex-row items-center justify-center mb-12">
+      <div className="flex flex-row items-center justify-center">
         <div className="mr-4">
           {" "}
           <a href={Code} rel="noreferrer" target="_blank">

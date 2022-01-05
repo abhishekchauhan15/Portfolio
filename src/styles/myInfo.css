@@ -1,10 +1,12 @@
 .bg {
-  background-image: url("../assets/backgrounds/blob-scene-dark.svg");
+  /* background-image: url("../assets/backgrounds/blob-scene-dark.svg"); */
+  background-image: url("../assets/backgrounds/blob-scene-haikei_h2.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: center; */
+  background-position: center;
   /* background-color: #1a1a1a; */
   height: 100vh;
+  /* width: 100vw; */
   /* z-index: -1; */
   /* display: inline-block; */
   /* position:absolute; */

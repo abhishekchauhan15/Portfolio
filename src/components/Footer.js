@@ -15,6 +15,8 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import SendIcon from "@material-ui/icons/Send";
 import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
+import bg from "../assets/backgrounds/layered-waves-haikei1.svg";
+import "../styles/footer.css";
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -74,6 +76,7 @@ function Footer() {
   const classes = useStyles();
 
   return (
+    <div className="footer_">
     <footer className={classes.root}>
       <Container id="contact">
         <Grid container>
@@ -126,7 +129,7 @@ function Footer() {
 
                   <Link
                     className={classes.socialItem}
-                    href="mailto:xbhavyatomar@gmail.com"
+                    href="mailto:abhishekchauhan1509@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     color="inherit"
@@ -144,7 +147,7 @@ function Footer() {
                 >
                   <Hidden xsDown>
                     <img
-                      src="/assets/message.svg"
+                      src="../assets/message.svg"
                       className={classes.illustration}
                       alt="message illustration"
                     />
@@ -157,7 +160,7 @@ function Footer() {
             <Typography variant="h3" align="left">
               Say Hi
             </Typography>
-            <form>
+            <form className="form">
               <TextField
                 label="Name"
                 fullWidth
@@ -165,7 +168,8 @@ function Footer() {
                 variant="outlined"
                 color="secondary"
                 required
-                id="form-name"
+                  id="form-name"
+                  
               />
               <TextField
                 label="Email"
@@ -211,7 +215,8 @@ function Footer() {
           </Grid>
         </Grid>
       </Container>
-    </footer>
+      </footer>
+    </div>
   );
 }
 

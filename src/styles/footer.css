@@ -1,64 +1,74 @@
-.info{
-    display: flex;
-    
+.info {
+  display: flex;
 }
 
-.footer{
-    display: flex;
-    background-color: #161625;
-    color: #fff;
+.footer_ {
+  background-image: url("../assets/backgrounds/layered-waves-haikei1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-color: #1a1a1a; */
+  height: 80vh;
+  /* transform: rotate(180deg); */
+  z-index: -1;
+  /* display: inline-block; */
+  /* position:absolute; */
+  display: flex;
+  /* font-family: Roboto, Helvetica, Arial, sans-serif; */
+  /* width: fit-content; */
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* margin-top: 20%; */
+  padding-top:9% ;
+
 }
 
-.rightSide{
-    margin-left: 30%;
+.rightSide {
+  margin-left: 30%;
 }
 
 .connect ul {
-    display: flex;
-    list-style: none;
-    flex-direction: column;
-    /* margin-left: 10%; */
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  /* margin-left: 10%; */
 }
 
-.userInfo{
-    display: flex;
-    flex-direction: column;
-    /* margin-left: 10%; */
+.form{
+    border-color: aliceblue;
 }
 
-.footerImg img{
-    width: 100%;
-    height: 100%;
+.footerImg img {
+  width: 100%;
+  height: 100%;
 }
 
-
-.contact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 10%;
-    font-size: 1.5rem;
-
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+  font-size: 1.5rem;
 }
 
-.connect{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.connect {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.connect li{
-    margin-top: 10%;
-    margin-left: 10%;
-    font-size: 1rem;
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.connect li {
+  margin-top: 10%;
+  margin-left: 10%;
+  font-size: 1rem;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
